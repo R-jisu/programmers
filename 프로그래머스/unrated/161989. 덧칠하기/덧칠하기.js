@@ -5,9 +5,6 @@ function solution(n, m, section) {
         if(el > lastPaintIndex) {
             cnt+=1;
             lastPaintIndex=el+m-1;
-            while(lastPaintIndex > n) {
-                lastPaintIndex-=1;
-            }
         }
     })
     return cnt;
