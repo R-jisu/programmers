@@ -6,8 +6,6 @@ function solution(players, callings) {
     kPlayervScore[player] = idx;
     kScorevPlayer[idx] = player;
   })
-  kScorevPlayer
-  kPlayervScore
   callings.map(players => {
     //불린 사람의 스코어
     const playersPreScore = kPlayervScore[players];
